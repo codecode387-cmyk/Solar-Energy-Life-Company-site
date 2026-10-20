@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Life Company | Solar Equipment in Oshodi, Lagos</title>
+    <meta name="description" content="Contact Solar Energy Life Company in Oshodi, Lagos, for enquiries about solar energy equipment and power solutions. Ask about product prices, specifications, and availability.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Solar Energy Life Company | Premium Solar Solutions in Lagos">
+    <meta property="og:description" content="Discover solar inverters, batteries, panels, and generators from Solar Energy Life Company.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="solar-energy-life-logo.jpg">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* CSS Variables */
+        :root {
+            --navy: #10213A;
+            --orange: #F5A623;
+            --orange-hover: #d98e1a;
+            --green: #249B59;
+            --white: #FFFFFF;
+            --light-bg: #F4F7FA;
+            --charcoal: #252B35;
+            --text-muted: #555555;
+            --transition: all 0.3s ease;
+            --font-main: 'Manrope', sans-serif;
+        }
+
+        /* Reset & Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-main); color: var(--charcoal); background-color: var(--white); line-height: 1.6; overflow-x: hidden; }
+        h1, h2, h3, h4 { font-weight: 800; line-height: 1.2; color: var(--navy); }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; object-fit: cover; }
+
+        /* Utilities */
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        .section-padding { padding: 80px 0; }
+        .section-header { text-align: center; margin-bottom: 50px; }
+        .section-header h2 { font-size: 2.5rem; margin-bottom: 15px; position: relative; display: inline-block; }
+        .section-header h2::after { content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: var(--orange); border-radius: 2px; }
+        .section-header p { color: var(--text-muted); font-size: 1.1rem; max-width: 700px; margin: 20px auto 0; }
+
+        /* Buttons */
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; font-size: 1rem; font-weight: 700; border-radius: 8px; cursor: pointer; transition: var(--transition); border: none; gap: 8px; font-family: var(--font-main); }
+        .btn-orange { background-color: var(--orange); color: var(--white); }
+        .btn-orange:hover { background-color: var(--orange-hover); box-shadow: 0 4px 15px rgba(245, 166, 35, 0.4); transform: translateY(-2px); }
+        .btn-navy { background-color: var(--navy); color: var(--white); }
+        .btn-navy:hover { background-color: #08162a; box-shadow: 0 4px 15px rgba(16, 33, 58, 0.3); transform: translateY(-2px); }
+        .btn-outline { background-color: transparent; color: var(--navy); border: 2px solid var(--navy); }
+        .btn-outline:hover { background-color: var(--navy); color: var(--white); }
+        .btn-whatsapp { background-color: var(--green); color: var(--white); }
+        .btn-whatsapp:hover { background-color: #1a8a53; box-shadow: 0 4px 15px rgba(36, 155, 89, 0.4); transform: translateY(-2px); }
+
+        /* Animations */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* Navigation */
+        nav { position: fixed; top: 0; width: 100%; background-color: var(--white); padding: 15px 0; z-index: 1000; transition: var(--transition); border-bottom: 1px solid #eee; }
+        nav.scrolled { padding: 10px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo img { height: 50px; width: auto; border-radius: 4px; }
+        .nav-links { display: flex; gap: 25px; align-items: center; }
+        .nav-links a { color: var(--navy); font-weight: 600; font-size: 0.95rem; transition: var(--transition); }
+        .nav-links a:hover { color: var(--orange); }
+        .nav-cta { display: flex; gap: 10px; }
+        .hamburger { display: none; color: var(--navy); cursor: pointer; background: none; border: none; }
+
+        /* Hero Section */
+        .hero { height: 100vh; min-height: 700px; background: linear-gradient(rgba(16, 33, 58, 0.85), rgba(16, 33, 58, 0.9)), url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; display: flex; align-items: center; position: relative; }
+        .hero-content { max-width: 800px; color: var(--white); }
+        .hero-content h1 { font-size: 3.5rem; margin-bottom: 20px; color: var(--white); line-height: 1.1; }
+        .hero-content p { font-size: 1.2rem; margin-bottom: 30px; color: #dddddd; max-width: 650px; }
+        .hero-buttons { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 40px; }
+        .trust-points { display: flex; gap: 20px; font-size: 0.9rem; font-weight: 600; color: #ccc; flex-wrap: wrap; }
+        .trust-points span { display: flex; align-items: center; gap: 8px; }
+        .trust-points i { color: var(--orange); }
+
+        /* About Section */
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .about-image { border-radius: 12px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1); }
+        .about-image img { width: 100%; height: 500px; }
+        .about-content h2 { font-size: 2.5rem; margin-bottom: 20px; }
+        .about-content p { color: var(--text-muted); margin-bottom: 20px; font-size: 1.05rem; }
+
+        /* Shop Section */
+        .shop-section { background-color: var(--light-bg); }
+        .shop-controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; flex-wrap: wrap; gap: 20px; }
+        .search-bar { position: relative; width: 100%; max-width: 400px; }
+        .search-bar input { width: 100%; padding: 12px 20px 12px 45px; border: 1px solid #ddd; border-radius: 30px; font-family: var(--font-main); font-size: 1rem; outline: none; transition: var(--transition); }
+        .search-bar input:focus { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.2); }
+        .search-bar i { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+        .filter-buttons { display: flex; gap: 10px; flex-wrap: wrap; }
+        .filter-btn { padding: 10px 20px; border: 1px solid #ddd; background: var(--white); border-radius: 30px; cursor: pointer; font-family: var(--font-main); font-weight: 600; transition: var(--transition); }
+        .filter-btn:hover, .filter-btn.active { background: var(--navy); color: var(--white); border-color: var(--navy); }
+        
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; }
+        .product-card { background: var(--white); border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: var(--transition); display: flex; flex-direction: column; cursor: pointer; }
+        .product-card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+        .product-image { height: 250px; overflow: hidden; position: relative; }
+        .product-image img { width: 100%; height: 100%; transition: transform 0.5s ease; }
+        .product-card:hover .product-image img { transform: scale(1.08); }
+        .product-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+        .product-info h3 { font-size: 1.2rem; margin-bottom: 8px; }
+        .product-info p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px; flex-grow: 1; }
+        .product-actions { display: flex; gap: 10px; margin-top: auto; }
+        .product-actions .btn { padding: 10px 15px; font-size: 0.85rem; flex: 1; }
+
+        /* Why Choose Us */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .feature-card { text-align: center; padding: 40px 20px; border: 1px solid #eee; border-radius: 12px; transition: var(--transition); background: var(--white); }
+        .feature-card:hover { border-color: var(--orange); box-shadow: 0 10px 30px rgba(245, 166, 35, 0.1); transform: translateY(-5px); }
+        .feature-icon { width: 70px; height: 70px; background-color: rgba(16, 33, 58, 0.05); color: var(--navy); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+        .feature-card h3 { margin-bottom: 15px; font-size: 1.2rem; }
+        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* FAQ Section */
+        .faq-section { background-color: var(--light-bg); }
+        .faq-container { max-width: 800px; margin: 0 auto; }
+        .faq-item { background: var(--white); border-radius: 8px; margin-bottom: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); overflow: hidden; }
+        .faq-question { width: 100%; text-align: left; padding: 20px 25px; background: none; border: none; font-size: 1.1rem; font-weight: 700; color: var(--navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: var(--font-main); }
+        .faq-question:hover { background-color: #fafafa; }
+        .faq-question i { transition: transform 0.3s ease; color: var(--orange); }
+        .faq-item.active .faq-question i { transform: rotate(180deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 25px; }
+        .faq-item.active .faq-answer { max-height: 300px; padding-bottom: 20px; }
+        .faq-answer p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* Contact Section */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+        .contact-info-item { display: flex; gap: 20px; margin-bottom: 25px; }
+        .contact-info-icon { width: 50px; height: 50px; background-color: rgba(16, 33, 58, 0.05); color: var(--navy); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .contact-info-text h4 { margin-bottom: 5px; font-size: 1.1rem; }
+        .contact-info-text p, .contact-info-text a { color: var(--text-muted); display: block; margin-bottom: 5px; }
+        .contact-info-text a:hover { color: var(--orange); }
+        .contact-buttons { display: flex; flex-direction: column; gap: 15px; }
+        .map-container { margin-top: 40px; border-radius: 12px; overflow: hidden; height: 350px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
+        .map-container iframe { width: 100%; height: 100%; border: none; }
+
+        /* Footer */
+        footer { background-color: var(--navy); color: var(--white); padding: 60px 0 20px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-col h4 { color: var(--orange); margin-bottom: 20px; font-size: 1.1rem; }
+        .footer-col p { color: #cccccc; font-size: 0.9rem; margin-bottom: 15px; }
+        .footer-col ul li { margin-bottom: 10px; }
+        .footer-col ul li a { color: #cccccc; font-size: 0.9rem; transition: var(--transition); }
+        .footer-col ul li a:hover { color: var(--orange); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; color: #888; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; }
+        .back-to-top { background: var(--orange); color: var(--white); width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; border: none; cursor: pointer; transition: var(--transition); }
+        .back-to-top:hover { background: var(--orange-hover); }
+
+        /* Floating WhatsApp */
+        .floating-whatsapp { position: fixed; bottom: 30px; right: 30px; background-color: var(--green); color: var(--white); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(36, 155, 89, 0.4); z-index: 999; transition: var(--transition); }
+        .floating-whatsapp:hover { transform: scale(1.1); }
+
+        /* Modal Styles */
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(16, 33, 58, 0.85); z-index: 2000; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: var(--transition); padding: 20px; }
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+        .modal-content { background-color: var(--white); width: 100%; max-width: 650px; border-radius: 12px; padding: 40px; position: relative; max-height: 90vh; overflow-y: auto; transform: translateY(20px); transition: var(--transition); border-top: 6px solid var(--orange); }
+        .modal-overlay.active .modal-content { transform: translateY(0); }
+        .modal-close { position: absolute; top: 20px; right: 20px; background: none; border: none; cursor: pointer; color: var(--text-muted); transition: var(--transition); }
+        .modal-close:hover { color: var(--navy); }
+        .modal-content h3 { font-size: 1.8rem; margin-bottom: 10px; }
+        .modal-content > p { color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem; }
+        
+        /* Form */
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: 700; font-size: 0.9rem; color: var(--navy); }
+        .form-control { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-family: var(--font-main); font-size: 1rem; transition: var(--transition); background-color: var(--light-bg); }
+        .form-control:focus { outline: none; border-color: var(--orange); box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.2); background-color: var(--white); }
+        textarea.form-control { resize: vertical; min-height: 100px; }
+        .checkbox-group { display: flex; align-items: flex-start; gap: 10px; }
+        .checkbox-group input { margin-top: 5px; }
+        .checkbox-group label { font-weight: 400; font-size: 0.85rem; color: var(--text-muted); }
+        .error-message { color: #d9534f; font-size: 0.8rem; margin-top: 5px; display: none; }
+        .form-group.error .form-control { border-color: #d9534f; }
+        .form-group.error .error-message { display: block; }
+        .success-message { display: none; background-color: #d4edda; color: #155724; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; }
+        .fallback-message { display: none; margin-top: 20px; padding: 15px; background-color: var(--light-bg); border-radius: 8px; }
+        .fallback-message textarea { width: 100%; height: 150px; margin-bottom: 10px; padding: 10px; font-family: var(--font-main); border: 1px solid #ddd; border-radius: 8px; }
+
+        /* Product Detail Modal Specifics */
+        .product-detail-img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero-content h1 { font-size: 2.8rem; }
+            .about-grid, .contact-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .about-image img { height: 350px; }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { position: fixed; top: 0; right: -100%; width: 75%; height: 100vh; background-color: var(--white); flex-direction: column; justify-content: center; transition: var(--transition); box-shadow: -5px 0 15px rgba(0,0,0,0.1); }
+            .nav-links.active { right: 0; }
+            .hamburger { display: block; z-index: 1001; }
+            .nav-cta { display: none; }
+            .hero-content h1 { font-size: 2.2rem; }
+            .hero-buttons { flex-direction: column; }
+            .modal-content { padding: 25px; }
+            .footer-bottom { flex-direction: column; gap: 15px; }
+            .shop-controls { flex-direction: column; align-items: flex-start; }
+            .search-bar { max-width: 100%; }
+        }
+
+        @media (max-width: 480px) {
+            .footer-grid { grid-template-columns: 1fr; }
+            .hero-content h1 { font-size: 1.8rem; }
+        }
+
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            * { animation: none !important; transition: none !important; }
+            .reveal { opacity: 1; transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="solar-energy-life-logo.jpg" alt="Solar Energy Life Company Logo" onerror="this.style.display='none'">
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <i data-lucide="menu"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="btn btn-orange open-enquiry-modal" data-product="General Inquiry">Request a Quote</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <h1>Power Your Home and Business with Smarter Solar Energy</h1>
+                <p>Explore solar energy equipment and practical power solutions from Solar Energy Life Company. Contact us to enquire about available products, specifications, and prices.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-orange">Explore Products</a>
+                    <button class="btn btn-navy open-enquiry-modal" data-product="General Inquiry">Request a Quote</button>
+                    <a href="https://wa.me/2348060773435?text=Hello%20Solar%20Energy%20Life%20Company,%20I%20would%20like%20to%20enquire%20about%20your%20solar%20products%20and%20prices." target="_blank" class="btn btn-whatsapp">
+                        <i data-lucide="message-circle"></i> Chat on WhatsApp
+                    </a>
+                </div>
+                <div class="trust-points">
+                    <span><i data-lucide="check-circle"></i> Solar Equipment Enquiries</span>
+                    <span><i data-lucide="check-circle"></i> Solutions for Home & Business</span>
+                    <span><i data-lucide="check-circle"></i> Direct Customer Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container about-grid">
+            <div class="about-image reveal">
+                <img src="https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=800&q=80" alt="Solar panel installation" loading="lazy">
+            </div>
+            <div class="about-content reveal">
+                <h2>About Solar Energy Life Company</h2>
+                <p>Solar Energy Life Company helps customers explore solar energy equipment and power solutions for everyday needs. We aim to make it easier for homes and businesses to enquire about suitable products, understand their options, and find equipment that matches their requirements.</p>
+                <p>Located at 36 Olaoipekin, Brown Street, Oshodi, Lagos, we are committed to providing reliable products and helpful service to our customers.</p>
+                <button class="btn btn-navy open-enquiry-modal" style="margin-top: 20px;" data-product="General Inquiry">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section-padding shop-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Explore Our Solar Products</h2>
+                <p>Browse our product categories and contact us to ask about availability, prices, and specifications.</p>
+            </div>
+            
+            <div class="shop-controls reveal">
+                <div class="search-bar">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+                <div class="filter-buttons" id="filterButtons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="inverters">Inverters</button>
+                    <button class="filter-btn" data-filter="batteries">Batteries</button>
+                    <button class="filter-btn" data-filter="panels">Panels</button>
+                    <button class="filter-btn" data-filter="generators">Generators</button>
+                </div>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Products injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Why Choose Us?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="layers"></i></div>
+                    <h3>Solar Equipment Enquiries in One Place</h3>
+                    <p>Explore different solar equipment categories and accessories in one convenient location.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="help-circle"></i></div>
+                    <h3>Assistance with Product Selection</h3>
+                    <p>Tell us about your energy needs and ask our team which products may be suitable for your application.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="home"></i></div>
+                    <h3>Options for Household & Business Needs</h3>
+                    <p>Find equipment for residential, commercial, backup power, and outdoor lighting applications.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="phone"></i></div>
+                    <h3>Direct Phone & WhatsApp Communication</h3>
+                    <p>Contact us directly through WhatsApp or phone to discuss your requirements and request product information.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="map-pin"></i></div>
+                    <h3>Convenient Location in Oshodi, Lagos</h3>
+                    <p>Visit us at 36 Olaoipekin, Brown Street, Oshodi, Lagos State.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding faq-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container reveal">
+                <div class="faq-item">
+                    <button class="faq-question">What solar products are available? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>We offer a range of solar products including inverters, batteries, panels, solar generators, and complete solar systems. Contact us to check current stock.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I choose the right inverter? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>The right inverter depends on the total wattage of the appliances you want to power simultaneously and your desired backup duration. Contact us with your appliance list, and we can help you determine the appropriate size.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What battery capacity do I need? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>Battery capacity is determined by your daily energy consumption (in kWh) and how long you want the backup to last. Factors like battery depth of discharge (DoD) and efficiency are also considered.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can a solar system power my home appliances? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>Yes, a properly sized solar system can run home appliances. However, system sizing must account for appliance wattage, usage duration, starting surge (especially for refrigerators), available sunlight, and battery requirements. We recommend a professional assessment.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I check product prices? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>You can check prices by clicking the "Request Price" button on any product, or by contacting us directly via WhatsApp or phone.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Where is Solar Energy Life Company located? <i data-lucide="chevron-down"></i></button>
+                    <div class="faq-answer"><p>We are located at 36 Olaoipekin, Brown Street, Oshodi, Lagos 100261, Nigeria.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you provide delivery or installation?</button>
+                    <div class="faq-answer"><p>Please contact us directly via WhatsApp or phone to discuss delivery and installation options for your specific location and requirements.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Contact Solar Energy Life Company</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="reveal">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+                        <div class="contact-info-text">
+                            <h4>Location</h4>
+                            <p>36 Olaoipekin, Brown Street, Oshodi, Lagos 100261, Nigeria.</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i data-lucide="phone"></i></div>
+                        <div class="contact-info-text">
+                            <h4>Phone / WhatsApp</h4>
+                            <a href="tel:08060773435">0806 077 3435</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i data-lucide="mail"></i></div>
+                        <div class="contact-info-text">
+                            <h4>Email</h4>
+                            <a href="mailto:ifeyinwanwannem202@gmail.com">ifeyinwanwannem202@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i data-lucide="instagram"></i></div>
+                        <div class="contact-info-text">
+                            <h4>Social Media</h4>
+                            <a href="https://www.instagram.com/princess_norbert/" target="_blank">Instagram</a>
+                            <a href="https://www.tiktok.com/@Princess%20Norbert" target="_blank">TikTok</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal contact-buttons">
+                    <a href="https://wa.me/2348060773435?text=Hello%20Solar%20Energy%20Life%20Company,%20I%20would%20like%20to%20enquire%20about%20your%20solar%20products%20and%20prices." target="_blank" class="btn btn-whatsapp">
+                        <i data-lucide="message-circle"></i> Chat on WhatsApp
+                    </a>
+                    <a href="tel:08060773435" class="btn btn-navy">
+                        <i data-lucide="phone"></i> Call Us
+                    </a>
+                    <button class="btn btn-orange open-enquiry-modal" data-product="General Inquiry">Send an Enquiry</button>
+                </div>
+            </div>
+            <!-- Map Embed -->
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.952838356692!2d3.326449814770386!3d6.555984695294928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d3c2d6a8b7b%3A0x7b8b8b8b8b8b8b8b!2sOshodi%2C%20Lagos!5e0!3m2!1sen!2sng!4v1689000000000!5m2!1sen!2sng" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade" 
+                    title="Solar Energy Life Company Location Map">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 20px;">
+                        <img src="solar-energy-life-logo.jpg" alt="Solar Energy Life Company Logo" style="height: 50px;" onerror="this.style.display='none'">
+                    </a>
+                    <p>We provide solar energy equipment and practical power solutions for homes and businesses in Oshodi, Lagos.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products">Solar Inverters</a></li>
+                        <li><a href="#products">Solar Batteries</a></li>
+                        <li><a href="#products">Solar Panels</a></li>
+                        <li><a href="#products">Solar Generators</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>36 Olaoipekin, Brown Street, Oshodi, Lagos.</p>
+                    <p>0806 077 3435</p>
+                    <p>ifeyinwanwannem202@gmail.com</p>
+                    <a href="https://wa.me/2348060773435" target="_blank" class="btn btn-whatsapp" style="margin-top: 10px; padding: 10px 20px; font-size: 0.9rem;">
+                        <i data-lucide="message-circle"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Solar Energy Life Company. All rights reserved.</p>
+                <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+                    <i data-lucide="arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2348060773435?text=Hello%20Solar%20Energy%20Life%20Company,%20I%20would%20like%20to%20enquire%20about%20your%20solar%20products%20and%20prices." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- Product Detail Modal -->
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-product-modal" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <img id="modal-product-img" class="product-detail-img" src="" alt="Product Image">
+            <h3 id="modal-product-name"></h3>
+            <p id="modal-product-desc" style="margin-bottom: 15px;"></p>
+            <div id="modal-product-specs" style="margin-bottom: 25px; font-size: 0.9rem; color: var(--text-muted);"></div>
+            <div style="display: flex; gap: 10px; flex-direction: column;">
+                <a id="modal-product-wa" href="#" target="_blank" class="btn btn-whatsapp" style="width: 100%;"><i data-lucide="message-circle"></i> Enquire on WhatsApp</a>
+                <button id="modal-product-price-btn" class="btn btn-outline open-enquiry-modal" data-product="" style="width: 100%;">Request Price</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enquiry Modal -->
+    <div class="modal-overlay" id="enquiry-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-enquiry-modal" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <h3>Request a Quote</h3>
+            <p>Fill out the form below and we will open a WhatsApp chat with your details so you can send it directly to our team.</p>
+            
+            <div class="success-message" id="success-message">
+                WhatsApp is opening in a new tab. Please press <strong>Send</strong> in WhatsApp to deliver your enquiry. If it didn't open, use the fallback options below.
+            </div>
+
+            <form id="enquiry-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" class="form-control" required>
+                    <div class="error-message">Please enter your full name.</div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" class="form-control" required>
+                    <div class="error-message">Please enter your phone number.</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address (Optional)</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="product-interest">Product Category *</label>
+                    <select id="product-interest" class="form-control" required>
+                        <option value="">Select a category</option>
+                        <option value="Solar Inverters">Solar Inverters</option>
+                        <option value="Solar Batteries">Solar Batteries</option>
+                        <option value="Solar Panels">Solar Panels</option>
+                        <option value="Solar Generators">Solar Generators</option>
+                        <option value="Complete Solar Systems">Complete Solar Systems</option>
+                        <option value="Solar Accessories">Solar Accessories</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                    <div class="error-message">Please select a category.</div>
+                </div>
+                <div class="form-group">
+                    <label for="specific-product">Specific Product (Optional)</label>
+                    <input type="text" id="specific-product" class="form-control" placeholder="e.g., 5KVA Inverter">
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity Required</label>
+                    <input type="number" id="quantity" class="form-control" min="1" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="customer-type">Customer Type</label>
+                    <select id="customer-type" class="form-control">
+                        <option value="Home">Home</option>
+                        <option value="Shop">Shop</option>
+                        <option value="Office">Office</option>
+                        <option value="Business">Business</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location *</label>
+                    <input type="text" id="location" class="form-control" placeholder="City / State" required>
+                    <div class="error-message">Please enter your location.</div>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget (Optional)</label>
+                    <input type="text" id="budget" class="form-control" placeholder="e.g., ₦500,000">
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Requirements *</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                    <div class="error-message">Please describe your requirements.</div>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="consent" required>
+                    <label for="consent">I agree that Solar Energy Life Company may use my information to respond to my inquiry. *</label>
+                </div>
+                <div class="error-message" id="consent-error" style="margin-bottom: 15px;">You must agree to the privacy terms.</div>
+                
+                <button type="submit" class="btn btn-orange" style="width: 100%;" id="submit-btn">Send Enquiry on WhatsApp</button>
+            </form>
+
+            <div class="fallback-message" id="fallback-message">
+                <p style="margin-bottom: 10px; font-weight: 600;">If WhatsApp did not open automatically, copy the message below and send it to us manually:</p>
+                <textarea id="fallback-text" readonly></textarea>
+                <button class="btn btn-orange" id="copy-btn" style="width: 100%; margin-bottom: 10px;">Copy Message</button>
+                <button class="btn btn-outline" id="retry-btn" style="width: 100%;">Try WhatsApp Again</button>
+            </div>
+            
+            <p style="font-size: 0.8rem; color: #888; margin-top: 15px; text-align: center;">Your information is only used to respond to this inquiry. We do not store your data on this website.</p>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Dynamic Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Sticky Navbar & Back to Top
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            if (window.scrollY > 500) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Mobile Menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if(navLinks.classList.contains('active')) {
+                icon.setAttribute('data-lucide', 'x');
+            } else {
+                icon.setAttribute('data-lucide', 'menu');
+            }
+            lucide.createIcons();
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.querySelector('i').setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            });
+        });
+
+        // Back to top
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Intersection Observer for Animations
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // FAQ Accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Product Data
+        const products = [
+            {
+                id: 1,
+                name: "1.5KVA Solar Hybrid Inverter",
+                category: "inverters",
+                desc: "Reliable hybrid inverter for home and small office use.",
+                img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+                specs: "Capacity: 1.5KVA | Type: Hybrid | Waveform: Pure Sine Wave",
+                waMsg: "Hello Solar Energy Life Company, I am interested in the 1.5KVA Solar Hybrid Inverter. Please send me the current price, specifications, and availability."
+            },
+            {
+                id: 2,
+                name: "5KVA Hybrid Inverter",
+                category: "inverters",
+                desc: "Higher capacity inverter suitable for larger homes and businesses.",
+                img: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=600&q=80",
+                specs: "Capacity: 5KVA | Type: Hybrid | MPPT Solar Charger",
+                waMsg: "Hello Solar Energy Life Company, I am interested in the 5KVA Hybrid Inverter. Please send me the current price, specifications, and availability."
+            },
+            {
+                id: 3,
+                name: "100Ah Lithium Battery",
+                category: "batteries",
+                desc: "Deep cycle lithium iron phosphate battery for solar storage.",
+                img: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=600&q=80",
+                specs: "Capacity: 100Ah | Voltage: 12V | Chemistry: LiFePO4",
+                waMsg: "Hello Solar Energy Life Company, I am interested in the 100Ah Lithium Battery. Please send me the current price, specifications, and availability."
+            },
+            {
+                id: 4,
+                name: "300W Solar Panel",
+                category: "panels",
+                desc: "High-efficiency monocrystalline solar panel.",
+                img: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80",
+                specs: "Power: 300W | Type: Monocrystalline | Voltage: 24V",
+                waMsg: "Hello Solar Energy Life Company, I am interested in the 300W Solar Panel. Please send me the current price, specifications, and availability."
+            },
+            {
+                id: 5,
+                name: "Portable Solar Generator",
+                category: "generators",
+                desc: "Compact solar generator for camping, backup, and portable power.",
+                img: "https://images.unsplash.com/photo-1620067928605-0b9b8b5e6f6c?auto=format&fit=crop&w=600&q=80",
+                specs: "Power: 500W | Battery: Lithium-ion | Outputs: AC, USB, DC",
+                waMsg: "Hello Solar Energy Life Company, I am interested in the Portable Solar Generator. Please send me the current price, specifications, and availability."
+            }
+        ];
+
+        const productGrid = document.getElementById('productGrid');
+        const searchInput = document.getElementById('searchInput');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+
+        function renderProducts(filter = 'all', search = '') {
+            productGrid.innerHTML = '';
+            
+            const filtered = products.filter(p => {
+                const matchesFilter = filter === 'all' || p.category === filter;
+                const matchesSearch = p.name.toLowerCase().includes(search.toLowerCase()) || p.desc.toLowerCase().includes(search.toLowerCase());
+                return matchesFilter && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                productGrid.innerHTML = '<p style="text-align: center; grid-column: 1/-1; color: #666;">No products found matching your criteria.</p>';
+                return;
+            }
+
+            filtered.forEach(product => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.innerHTML = `
+                    <div class="product-image">
+                        <img src="${product.img}" alt="${product.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400?text=Product+Image'">
+                    </div>
+                    <div class="product-info">
+                        <h3>${product.name}</h3>
+                        <p>${product.desc}</p>
+                        <div class="product-actions">
+                            <button class="btn btn-outline view-details-btn" data-id="${product.id}">View Details</button>
+                            <a href="https://wa.me/2348060773435?text=${encodeURIComponent(product.waMsg)}" target="_blank" class="btn btn-whatsapp"><i data-lucide="message-circle"></i> Enquire</a>
+                        </div>
+                    </div>
+                `;
+                productGrid.appendChild(card);
+            });
+            
+            // Re-attach event listeners for View Details buttons
+            document.querySelectorAll('.view-details-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const id = parseInt(e.target.getAttribute('data-id'));
+                    openProductModal(id);
+                });
+            });
+
+            lucide.createIcons();
+        }
+
+        // Initial Render
+        renderProducts();
+
+        // Filter Buttons
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+                renderProducts(filter, searchInput.value);
+            });
+        });
+
+        // Search Input
+        searchInput.addEventListener('input', (e) => {
+            const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+            renderProducts(activeFilter, e.target.value);
+        });
+
+        // Product Detail Modal Logic
+        const productModal = document.getElementById('product-modal');
+        const closeProductModal = document.getElementById('close-product-modal');
+        
+        function openProductModal(id) {
+            const product = products.find(p => p.id === id);
+            if (!product) return;
+
+            document.getElementById('modal-product-img').src = product.img;
+            document.getElementById('modal-product-name').textContent = product.name;
+            document.getElementById('modal-product-desc').textContent = product.desc;
+            document.getElementById('modal-product-specs').textContent = product.specs;
+            
+            const waLink = `https://wa.me/2348060773435?text=${encodeURIComponent(product.waMsg)}`;
+            document.getElementById('modal-product-wa').href = waLink;
+            
+            const priceBtn = document.getElementById('modal-product-price-btn');
+            priceBtn.setAttribute('data-product', product.name);
+            
+            productModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        closeProductModal.addEventListener('click', () => {
+            productModal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        productModal.addEventListener('click', (e) => {
+            if (e.target === productModal) {
+                productModal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Enquiry Modal Logic
+        const enquiryModal = document.getElementById('enquiry-modal');
+        const closeEnquiryModal = document.getElementById('close-enquiry-modal');
+        const enquiryForm = document.getElementById('enquiry-form');
+        const successMessage = document.getElementById('success-message');
+        const fallbackMessage = document.getElementById('fallback-message');
+        const fallbackText = document.getElementById('fallback-text');
+        const submitBtn = document.getElementById('submit-btn');
+        const productInterestSelect = document.getElementById('product-interest');
+
+        // Open Enquiry Modal
+        document.body.addEventListener('click', (e) => {
+            if (e.target.closest('.open-enquiry-modal')) {
+                e.preventDefault();
+                const btn = e.target.closest('.open-enquiry-modal');
+                const productName = btn.getAttribute('data-product');
+                
+                if (productName) {
+                    let matched = false;
+                    for (let option of productInterestSelect.options) {
+                        if (option.value === productName) {
+                            productInterestSelect.value = productName;
+                            matched = true;
+                            break;
+                        }
+                    }
+                    if (!matched) productInterestSelect.value = 'General Inquiry';
+                }
+                
+                enquiryModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        });
+
+        closeEnquiryModal.addEventListener('click', () => {
+            enquiryModal.classList.remove('active');
+            document.body.style.overflow = '';
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+                fallbackMessage.style.display = 'none';
+                enquiryForm.style.display = 'block';
+            }, 300);
+        });
+
+        enquiryModal.addEventListener('click', (e) => {
+            if (e.target === enquiryModal) {
+                enquiryModal.classList.remove('active');
+                document.body.style.overflow = '';
+                setTimeout(() => {
+                    successMessage.style.display = 'none';
+                    fallbackMessage.style.display = 'none';
+                    enquiryForm.style.display = 'block';
+                }, 300);
+            }
+        });
+
+        // Close modals on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                if (enquiryModal.classList.contains('active')) {
+                    closeEnquiryModal.click();
+                }
+                if (productModal.classList.contains('active')) {
+                    closeProductModal.click();
+                }
+            }
+        });
+
+        // Form Submission
+        enquiryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            let isValid = true;
+            const requiredFields = ['name', 'phone', 'product-interest', 'location', 'message'];
+            
+            requiredFields.forEach(fieldId => {
+                const input = document.getElementById(fieldId);
+                const group = input.closest('.form-group');
+                if (!input.value.trim()) {
+                    group.classList.add('error');
+                    isValid = false;
+                } else {
+                    group.classList.remove('error');
+                }
+            });
+
+            const consent = document.getElementById('consent');
+            const consentError = document.getElementById('consent-error');
+            if (!consent.checked) {
+                consentError.style.display = 'block';
+                isValid = false;
+            } else {
+                consentError.style.display = 'none';
+            }
+
+            if (!isValid) return;
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'Processing...';
+
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const product = document.getElementById('product-interest').value;
+            const specificProduct = document.getElementById('specific-product').value.trim();
+            const quantity = document.getElementById('quantity').value;
+            const customerType = document.getElementById('customer-type').value;
+            const location = document.getElementById('location').value.trim();
+            const budget = document.getElementById('budget').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            let waMessage = `Hello Solar Energy Life Company,\n\nI would like to make an enquiry.\n\n`;
+            waMessage += `Full Name: ${name}\n`;
+            waMessage += `Phone: ${phone}\n`;
+            if (email) waMessage += `Email: ${email}\n`;
+            waMessage += `Product Category: ${product}\n`;
+            if (specificProduct) waMessage += `Specific Product: ${specificProduct}\n`;
+            waMessage += `Quantity: ${quantity}\n`;
+            waMessage += `Customer Type: ${customerType}\n`;
+            waMessage += `Location: ${location}\n`;
+            if (budget) waMessage += `Budget: ${budget}\n\n`;
+            waMessage += `Requirements:\n${message}\n\n`;
+            waMessage += `Please provide information about the available options, pricing, and next steps.\n\nThank you.`;
+
+            const encodedMessage = encodeURIComponent(waMessage);
+            const waUrl = `https://wa.me/2348060773435?text=${encodedMessage}`;
+
+            const newWindow = window.open(waUrl, '_blank');
+
+            if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+                showFallback(waMessage);
+            } else {
+                enquiryForm.style.display = 'none';
+                successMessage.style.display = 'block';
+                showFallback(waMessage);
+            }
+
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'Send Enquiry on WhatsApp';
+        });
+
+        function showFallback(message) {
+            fallbackMessage.style.display = 'block';
+            fallbackText.value = message;
+            
+            document.getElementById('copy-btn').onclick = () => {
+                fallbackText.select();
+                document.execCommand('copy');
+                const copyBtn = document.getElementById('copy-btn');
+                const originalText = copyBtn.innerHTML;
+                copyBtn.innerHTML = 'Copied!';
+                setTimeout(() => copyBtn.innerHTML = originalText, 2000);
+            };
+
+            document.getElementById('retry-btn').onclick = () => {
+                const encoded = encodeURIComponent(message);
+                window.open(`https://wa.me/2348060773435?text=${encoded}`, '_blank');
+            };
+        }
+
+        document.querySelectorAll('.form-control').forEach(input => {
+            input.addEventListener('input', () => {
+                input.closest('.form-group').classList.remove('error');
+            });
+        });
+        document.getElementById('consent').addEventListener('change', () => {
+            document.getElementById('consent-error').style.display = 'none';
+        });
+
+    </script>
+</body>
+</html>
